@@ -1,0 +1,246 @@
+body{
+    overflow-x: hidden ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    z-index: 1000;
+    position: fixed;
+    width: 61px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav img{
+    margin: 10px;
+}
+.content{
+   color: white;
+   text-align: center;
+   margin-left: 61px; 
+   height: 110vh;
+   width: 100%;
+   background-color: rgb(65, 190, 248);
+
+}
+.logo-3{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 70px;
+    color: white;
+}
+.info > p{
+    margin-top: 30px;
+    font-size: 100px;
+}
+.info > img{
+    margin-top: 50px;
+}
+.content-2{
+    height: 100vh;
+    margin-left: 170px;
+}
+.content-2 > h1{
+    margin-top: 50px;
+}
+.content-2 > img{
+    margin-top: 50px;
+}
+.info-2{
+    display: flex;
+    margin-top: 40px;
+}
+.info-2 > h2{
+    margin-left:150px ;
+}
+.logo-2-in{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-2-in > h1{
+    margin-top: 20px;
+}
+.logo-2-in > h2{
+    margin-top: 20px;
+}
+button{
+    border: none;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(83, 196, 248);
+    color: white
+}
+.content-3{
+   margin-left: 61px; 
+   height: 110vh;
+   width: 100%;
+}
+.content-3 > h1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.content-3 > h2{
+    margin-left: 100px;
+}
+.content-3 > .info-3 > img{
+    margin-left: 100px;
+    margin-top: 50px ;
+}
+.info-3{
+    display: flex;
+    margin-top: 40px;
+}
+.logo-3-in > h2{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.logo-3-in > h1{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.logo-3-in > button {
+    margin-left: 140px ;
+}
+.content-4{
+    margin-left: 61px; 
+    height: 110vh;
+    width: 100%;
+}
+.content-4 > h1{
+    margin-left:100px ;
+    margin-top: 100px;
+}
+.content-4 > h2{
+    margin-left:100px ;
+}
+.info-4{
+    display: flex;
+    margin-top: 40px;
+}
+.logo-4-in > h2{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.logo-4-in > h1{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.logo-4-in > button{
+    margin-left: 140px;
+    margin-top: 150px;
+}
+@media(max-width:992px){
+    nav{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        height: 61px;
+        width: 100%;
+        bottom: 0;
+    }
+    .content{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .info > img{
+        width: 300px;
+    }
+    .content-2{
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-2-in > button{
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 300px;
+    }
+    .info-2 > img{
+        margin-left: 45px;
+    }
+    .logo-2-in > h1{
+        display: none;
+    }
+    .logo-2-in > h2{
+        display: none;
+    }
+    .info-2 > img{
+        width: 300px;
+    }
+    .content-3{
+        margin-left: 0px;
+        margin-top: -150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .content-3 > h1{
+        margin-top: 60px;
+    }
+    .content-3 >.info-3 > img{
+        margin-left: 65px;
+    }
+    .logo-3-in > button{
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 320px;
+    }
+    .logo-3-in > h1{
+        display: none;
+    }
+    .logo-3-in > h2{
+        display: none;
+    }
+    .info-3 > img{
+        width: 250px;
+    }
+    .content-4{
+        margin-left: 0px;
+        margin-top: -150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-4 > h1{
+        margin-top: 60px;
+    }
+    .content-4 >.info-4 > img{
+        margin-left: 65px;
+    }
+    .logo-4-in > button{
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 320px;
+    }
+    .logo-4-in > h1{
+        display: none;
+    }
+    .logo-4-in > h2{
+        display: none;
+    }
+    .info-4 > img{
+        width: 250px;
+    }
+    .content > .logo-3 > img{
+        margin-left:35px ;
+    }
+    nav> .logo-2 > .two{
+        display: none;
+    }
+    nav> .logo-2 > .one-1{
+        display: unset;
+    }
+    
+}
